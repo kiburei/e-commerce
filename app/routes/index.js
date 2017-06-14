@@ -22,8 +22,7 @@ export default Ember.Route.extend({
     },
     actions: {
         addNewProduct(params) {
-            products.push(params);
-            
+            products.push(params);  
         }
     }
 });

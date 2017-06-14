@@ -3,12 +3,12 @@ import Ember from 'ember';
                 name: 'Meko',
                 price: "KES 12,000",
                 description: "On Fire, woun't go off",
-                image: ""
+                image: "http://www.hungryaphrodite.com/wp-content/uploads/2013/07/jiko5.jpg"
                 }, {
                 name: 'Crib',
                 price: "KES 15,500",
                 description: "That kid is not going any where",
-                image: ""
+                image:""
                 }, {
                 name: 'Percolator',
                 price: "KES 7,000",

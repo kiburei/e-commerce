@@ -1,11 +1,12 @@
 {{#each products as |product|}}
     <div class="row">
         <div class="col-md-4">
-            <li> <img class="img-circle" src={{product.image}}> </li>
+            {{!--<li> <img class="img-circle" src={{product.image}}> </li>--}}
         </div>
         <div class="col-md-8">
             <li> {{product.name}} </li>
             <li> {{product.description}} </li>
+            <li> {{product.price}} </li>
         </div>
     </div>
 {{/each}}

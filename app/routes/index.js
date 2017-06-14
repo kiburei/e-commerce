@@ -19,5 +19,11 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     model () {
         return products;
+    },
+    actions: {
+        addNewProduct(params) {
+            products.push(params);
+            
+        }
     }
 });

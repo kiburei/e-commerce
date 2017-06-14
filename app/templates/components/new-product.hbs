@@ -1,1 +1,13 @@
-{{yield}}
+{{#if productForm}}
+    <form>
+        <label for="name">Name:</label>
+        {{input value=name id='name'}}
+        <label for="description">Description:</label>
+        {{input value=decription id='decription'}}
+        <label for="price">Price:</label>
+        {{input value=price id='image'}}
+        <button {{action 'addNewProduct'}} >Submit</button> 
+    </form>
+{{else}}
+    <button {{action 'showAddProductForm'}} >Add Product</button>
+{{/if}}
